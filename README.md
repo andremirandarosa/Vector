@@ -3,7 +3,7 @@
 
 > André Luiz Miranda da Rosa (andremirandarosa@gmail.com)
 
-*Linguagem de Programação: Java (JDK: 1.8)*
+*Linguagens de Programação: Front-End: Angular (8) - Back-End: Java (JDK: 1.8)*
 
 ------------
 
@@ -14,7 +14,7 @@ Front-End desenvolvido em Angular, com o Back-End 1 que recebe requisições de 
 ------------
 ### EXECUÇÃO:
 
-**Criar Package nos Sub-Diretórios Backend1 e Backend2:** mvn package
+**Criar Package com Maven nos Sub-Diretórios Backend1 e Backend2:** mvn package
 
 **Executar Docker-Compose (Raíz do Projeto):** sudo docker-compose up
 
