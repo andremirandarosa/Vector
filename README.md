@@ -7,7 +7,7 @@
 
 ------------
 
-O Front-End envia as requisições de cadastro de contas bancárias (Agência e Conta) para o Back-End 1, que as recebe e gera mensagens para o Kafka. O Back-End 2 recebe as mensagens do Kafka e salva no DB H2 (em memória).
+O Front-End envia requisições de cadastro das contas bancárias (Agência e Conta) para o Back-End 1, que as recebe e gera mensagens para o Kafka. O Back-End 2 recebe as mensagens do Kafka e salva no DB H2 (em memória).
 
 **OBS:** O Build do Front-End já está encapsulado na aplicação web do Back-End 1.
 
