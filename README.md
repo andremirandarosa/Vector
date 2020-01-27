@@ -7,18 +7,16 @@
 
 ------------
 
-Sistema de Cadastro de Contas Bancárias. FrontENd desenvolvido em Angular e com o BackEnd 1 que recebe a requisição de cadastro de conta bancária e envia uma mensagem para o Kafka. O BackEnd 2 recebe as mensagens do Kafka e salva no DB em memória H2.
+Sistema de Cadastro de Contas Bancárias. Front-End desenvolvido em Angular e com o Back-End 1 que recebe requisições de cadastro de conta bancária e envia mensagens para o Kafka. O Back-End 2 recebe as mensagens do Kafka e salva no DB H2 em memória.
 
-*OBS:* O build do FrontEnd fui encapsulado na aplicação web do BackEnd 1.
+*OBS:* O build do Front-End já está encapsulado na aplicação web do Back-End 1.
 
 ------------
-### DOCKER:
+### EXECUÇÃO:
 
-**Criar Package:** mvn package
+**Criar Package nos Sub-Diretórios Backend1 e Backend2:** mvn package
 
-**Criar Imagem Docker:** sudo docker build -t vector .
-
-**Criar e Executar Container:** sudo docker run --network host -d --name vector vector
+**Executar Docker-Compose na Raíz do Projeto:** sudo docker-compose up
 
 ------------
 
@@ -37,5 +35,5 @@ Sistema de Cadastro de Contas Bancárias. FrontENd desenvolvido em Angular e com
 
 **Password:** admin
 
-**Tabela:** CONTA
+**Tabela de Contas:** CONTA
 
