@@ -16,7 +16,7 @@ O Front-End envia requisições de cadastro das contas bancárias (Agência e Co
 
 mvn package
 
-**Executar Docker-Compose (Raíz do Projeto):** 
+**Executar Docker-Compose na Raíz do Projeto:** 
 
 sudo docker-compose build
 
