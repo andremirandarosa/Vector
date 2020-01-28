@@ -12,9 +12,12 @@ O Front-End envia requisições de cadastro das contas bancárias (Agência e Co
 ------------
 ### EXECUÇÃO:
 
-**Criar Package com Maven nos Sub-Diretórios Backend1 e Backend2:** mvn package
+**Criar Package com Maven nos Sub-Diretórios Backend1 e Backend2:** 
+mvn package
 
-**Executar Docker-Compose (Raíz do Projeto):** sudo docker-compose up
+**Executar Docker-Compose (Raíz do Projeto):** 
+sudo docker-compose build
+sudo docker-compose up
 
 ------------
 
