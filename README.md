@@ -28,6 +28,10 @@ sudo docker-compose up
 
 **FRONTEND:** http://localhost:4200
 
+**BACKEND 1:** http://localhost:8080
+
+**BACKEND 2:** http://localhost:8081
+
 **CONSOLE H2 DO BACK-END 2:** http://localhost:8081/h2
 
 ---
