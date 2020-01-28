@@ -8,25 +8,25 @@ services:
       - ADVERTISED_HOST=localhost
       - ADVERTISED_PORT=9092
     network_mode: host
-    ports:
-      - '9092:9092'
-      - '2181:2181'
-  
+     
+  frontend:
+    container_name: 'vector-frontend'
+    build: './FrontEnd'
+    depends_on:
+      - kafka
+    network_mode: host
+   
   backend1:
     container_name: 'vector-backend1'
     build: './Backend1'
     depends_on:
       - kafka
     network_mode: host
-    ports:
-      - '8080:8080'
-  
+   
   backend2:
     container_name: 'vector-backend2'
     build: './Backend2'    
     depends_on:
       - kafka
     network_mode: host
-    ports:
-      - '8081:8081'
-
+   

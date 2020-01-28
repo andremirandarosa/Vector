@@ -11,6 +11,7 @@ export class BackendService {
   constructor(private http: HttpClient) {}  
 
   save(dto : ContaDTO){        
-    return this.http.post('./api', dto);    
+    // return this.http.post('./api', dto);    
+    return this.http.post('http://localhost:8080/api', dto);    
   }
 }
